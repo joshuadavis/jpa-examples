@@ -29,7 +29,6 @@ public class BasicEntityTest
         Thing thing = new Thing();
         em.persist(thing);
 
-
         em.getTransaction().commit();
 
         em.close();
