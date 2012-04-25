@@ -1,23 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
     <parent>
-        <groupId>org.yajul.jpa-examples</groupId>
         <artifactId>parent-pom</artifactId>
+        <groupId>org.yajul.jpa-examples</groupId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../parent-pom</relativePath>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.yajul.jpa-examples</groupId>
-    <artifactId>parent-child</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>arq-persistence</artifactId>
     <packaging>jar</packaging>
 
-    <name>parent-child</name>
-
-    <properties>
-    </properties>
+    <name>arq-persistence</name>
 
     <dependencies>
         <dependency>
@@ -28,10 +23,25 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.jboss.arquillian.extension</groupId>
+            <artifactId>arquillian-persistence-impl</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.arquillian.testng</groupId>
+            <artifactId>arquillian-testng-container</artifactId>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.arquillian.container</groupId>
+            <artifactId>arquillian-weld-ee-embedded-1.1</artifactId>
+            <version>${version.arquillian}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

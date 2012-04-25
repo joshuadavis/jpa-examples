@@ -7,6 +7,8 @@
   <version>1.0-SNAPSHOT</version>
     <modules>
         <module>parent-child</module>
+        <module>arq-persistence</module>
+        <module>parent-pom</module>
     </modules>
     <packaging>pom</packaging>
 
