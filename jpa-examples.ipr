@@ -213,6 +213,7 @@
       <module fileurl="file://$PROJECT_DIR$/jpa-examples.iml" filepath="$PROJECT_DIR$/jpa-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-child/parent-child.iml" filepath="$PROJECT_DIR$/parent-child/parent-child.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent-pom/parent-pom.iml" filepath="$PROJECT_DIR$/parent-pom/parent-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-embedded-container/simple-embedded-container.iml" filepath="$PROJECT_DIR$/simple-embedded-container/simple-embedded-container.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -361,6 +362,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.4.8/dbunit-2.4.8-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.glassfish.main.extras:glassfish-embedded-web:3.1.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/extras/glassfish-embedded-web/3.1.2/glassfish-embedded-web-3.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/extras/glassfish-embedded-web/3.1.2/glassfish-embedded-web-3.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/extras/glassfish-embedded-web/3.1.2/glassfish-embedded-web-3.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.hamcrest:hamcrest-core:1.1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/" />
@@ -504,6 +516,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-spi/1.0.0.Final/arquillian-container-test-spi-1.0.0.Final-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.jboss.arquillian.container:arquillian-glassfish-embedded-3.1:1.0.0.CR3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-glassfish-embedded-3.1/1.0.0.CR3/arquillian-glassfish-embedded-3.1-1.0.0.CR3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-glassfish-embedded-3.1/1.0.0.CR3/arquillian-glassfish-embedded-3.1-1.0.0.CR3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-glassfish-embedded-3.1/1.0.0.CR3/arquillian-glassfish-embedded-3.1-1.0.0.CR3-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.jboss.arquillian.core:arquillian-core-api:1.0.0.Final">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-api/1.0.0.Final/arquillian-core-api-1.0.0.Final.jar!/" />
@@ -559,6 +582,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/extension/arquillian-persistence-impl/1.0.0.Alpha4/arquillian-persistence-impl-1.0.0.Alpha4-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.0.Final/arquillian-protocol-servlet-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.0.Final/arquillian-protocol-servlet-1.0.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.0.Final/arquillian-protocol-servlet-1.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.jboss.arquillian.test:arquillian-test-api:1.0.0.Final">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-api/1.0.0.Final/arquillian-test-api-1.0.0.Final.jar!/" />
@@ -590,6 +624,50 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.0.0.Final/arquillian-test-spi-1.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-cdi:1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.0.Final/arquillian-testenricher-cdi-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.0.Final/arquillian-testenricher-cdi-1.0.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.0.Final/arquillian-testenricher-cdi-1.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-ejb:1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.0.Final/arquillian-testenricher-ejb-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.0.Final/arquillian-testenricher-ejb-1.0.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.0.Final/arquillian-testenricher-ejb-1.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-initialcontext:1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.0.Final/arquillian-testenricher-initialcontext-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.0.Final/arquillian-testenricher-initialcontext-1.0.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.0.Final/arquillian-testenricher-initialcontext-1.0.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-resource:1.0.0.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.0.Final/arquillian-testenricher-resource-1.0.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.0.Final/arquillian-testenricher-resource-1.0.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.0.Final/arquillian-testenricher-resource-1.0.0.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.jboss.arquillian.testng:arquillian-testng-container:1.0.0.Final">
@@ -735,22 +813,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.6/snakeyaml-1.6-sources.jar!/" />
       </SOURCES>
     </library>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.20000002" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <library name="Maven: org.yaml:snakeyaml:1.9">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.9/snakeyaml-1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.9/snakeyaml-1.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.9/snakeyaml-1.9-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
 </project>
 

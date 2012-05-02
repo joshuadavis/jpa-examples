@@ -9,6 +9,7 @@
         <module>parent-child</module>
         <module>arq-persistence</module>
         <module>parent-pom</module>
+        <module>simple-embedded-container</module>
     </modules>
     <packaging>pom</packaging>
 
