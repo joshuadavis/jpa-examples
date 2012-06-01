@@ -15,6 +15,7 @@
         <version.arquillian.persistence>1.0.0.Alpha4</version.arquillian.persistence>
         <version.hibernate>4.1.2</version.hibernate>
         <version.testng>6.5.1</version.testng>
+        <version.junit>4.8.1</version.junit>
     </properties>
 
     <profiles>
@@ -31,8 +32,9 @@
                 </dependency>
                 <dependency>
                     <groupId>org.glassfish.main.extras</groupId>
-                    <artifactId>glassfish-embedded-web</artifactId>
+                    <artifactId>glassfish-embedded-all</artifactId>
                     <version>3.1.2</version>
+                    <scope>provided</scope>
                 </dependency>
             </dependencies>
             <build>
@@ -90,33 +92,20 @@
                 <version>${version.arquillian.persistence}</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${version.junit}</version>
+                <scope>test</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>${version.testng}</version>
                 <scope>test</scope>
             </dependency>
-
-<!--
-            <dependency>
-                <groupId>org.jboss.arquillian.container</groupId>
-                <artifactId>arquillian-weld-ee-embedded-1.1</artifactId>
-                <version>1.0.0.CR3</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.weld</groupId>
-                <artifactId>weld-core</artifactId>
-                <version>1.1.5.Final</version>
-                <scope>test</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-simple</artifactId>
-                <version>1.6.4</version>
-                <scope>test</scope>
-            </dependency>
--->
         </dependencies>
     </dependencyManagement>
 

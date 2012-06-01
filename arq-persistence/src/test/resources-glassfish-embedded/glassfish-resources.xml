@@ -12,4 +12,5 @@
         <property name="databaseName" value="target/databases/derby"/>
         <property name="createDatabase" value="create"/>
     </jdbc-connection-pool>
+
 </resources>

@@ -1,11 +1,12 @@
 package org.yajul.eg.arq;
 
 import org.jboss.arquillian.container.test.api.Deployment;
-import org.jboss.arquillian.testng.Arquillian;
+import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
-import org.testng.annotations.Test;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import javax.inject.Inject;
 import javax.transaction.UserTransaction;
@@ -17,8 +18,8 @@ import javax.transaction.UserTransaction;
  * Date: 5/2/12
  * Time: 3:32 PM
  */
-@Test
-public class SimpleArqTest extends Arquillian
+@RunWith(Arquillian.class)
+public class SimpleArqTest
 {
 
     @Inject
@@ -35,6 +36,7 @@ public class SimpleArqTest extends Arquillian
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 
+    @Test
     public void testSimpleBean()
     {
         String s = simple.hello();
