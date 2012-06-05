@@ -1,2 +1,5 @@
 target/
 .DS_Store
+derby.log
+*.iws
+atlassian-ide-plugin.xml

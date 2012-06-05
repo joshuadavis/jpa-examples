@@ -29,9 +29,9 @@ public class JUnitArquillianPersistenceTest
     @Deployment
     public static Archive<?> createDeploymentPackage()
     {
-        return ShrinkWrap.create(JavaArchive.class, "test.jar")
+        return ShrinkWrap.create(JavaArchive.class)
                 .addPackage(Thing.class.getPackage())
-                .addAsManifestResource("test-persistence.xml", "persistence.xml")
+                .addAsManifestResource("test-persistence-hib.xml", "persistence.xml")
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 
@@ -45,11 +45,12 @@ public class JUnitArquillianPersistenceTest
     @Test
     public void testThing() throws Exception
     {
+        System.out.println("utx=" + utx + " em=" + em);
         utx.begin();
         Thing thing = new Thing();
         em.persist(thing);
         utx.commit();
 
-        System.out.println("tx.isActive()=" + em.getTransaction().isActive());
+        System.out.println("okay.");
     }
 }

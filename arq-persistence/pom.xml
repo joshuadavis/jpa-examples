@@ -15,6 +15,11 @@
     <name>arq-persistence</name>
 
     <dependencies>
+        <!--
+        NOTE: If you put Hibernate in the classpath, remember to put
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        in the persistence.xml file.
+        -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>

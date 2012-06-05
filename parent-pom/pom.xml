@@ -11,11 +11,12 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.arquillian>1.0.0.Final</version.arquillian>
+        <version.arquillian>1.0.1.Final</version.arquillian>
         <version.arquillian.persistence>1.0.0.Alpha4</version.arquillian.persistence>
         <version.hibernate>4.1.2</version.hibernate>
         <version.testng>6.5.1</version.testng>
         <version.junit>4.8.1</version.junit>
+        <version.hsqldb>2.2.8</version.hsqldb>
     </properties>
 
     <profiles>
@@ -106,6 +107,14 @@
                 <version>${version.testng}</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.hsqldb</groupId>
+                <artifactId>hsqldb</artifactId>
+                <version>${version.hsqldb}</version>
+                <scope>test</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
