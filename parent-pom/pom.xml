@@ -19,10 +19,9 @@
         <version.hsqldb>2.2.8</version.hsqldb>
     </properties>
 
-
-
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-core</artifactId>
