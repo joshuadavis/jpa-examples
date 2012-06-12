@@ -81,6 +81,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="activeProfiles">
+      <list>
+        <option value="arquillian-jbossas-managed" />
+      </list>
+    </option>
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
@@ -659,17 +664,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/dbunit/dbunit/2.4.8/dbunit-2.4.8-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.glassfish.main.extras:glassfish-embedded-all:3.1.2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/extras/glassfish-embedded-all/3.1.2/glassfish-embedded-all-3.1.2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/extras/glassfish-embedded-all/3.1.2/glassfish-embedded-all-3.1.2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/extras/glassfish-embedded-all/3.1.2/glassfish-embedded-all-3.1.2-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.1.Final">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar!/" />
@@ -725,6 +719,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/4.2.0.Final/hibernate-validator-4.2.0.Final-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.hsqldb:hsqldb:2.2.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.8/hsqldb-2.2.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.8/hsqldb-2.2.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.8/hsqldb-2.2.8-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.javassist:javassist:3.15.0-GA">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar!/" />
@@ -736,37 +741,37 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.config:arquillian-config-api:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.config:arquillian-config-api:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-api/1.0.0.Final/arquillian-config-api-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-api/1.0.1.Final/arquillian-config-api-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-api/1.0.0.Final/arquillian-config-api-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-api/1.0.1.Final/arquillian-config-api-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-api/1.0.0.Final/arquillian-config-api-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-api/1.0.1.Final/arquillian-config-api-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.config:arquillian-config-impl-base:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.config:arquillian-config-impl-base:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-impl-base/1.0.0.Final/arquillian-config-impl-base-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-impl-base/1.0.1.Final/arquillian-config-impl-base-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-impl-base/1.0.0.Final/arquillian-config-impl-base-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-impl-base/1.0.1.Final/arquillian-config-impl-base-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-impl-base/1.0.0.Final/arquillian-config-impl-base-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/config/arquillian-config-impl-base/1.0.1.Final/arquillian-config-impl-base-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.container:arquillian-container-impl-base:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.container:arquillian-container-impl-base:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-impl-base/1.0.0.Final/arquillian-container-impl-base-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-impl-base/1.0.1.Final/arquillian-container-impl-base-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-impl-base/1.0.0.Final/arquillian-container-impl-base-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-impl-base/1.0.1.Final/arquillian-container-impl-base-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-impl-base/1.0.0.Final/arquillian-container-impl-base-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-impl-base/1.0.1.Final/arquillian-container-impl-base-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.jboss.arquillian.container:arquillian-container-osgi:1.0.2.Final">
@@ -780,92 +785,81 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-osgi/1.0.2.Final/arquillian-container-osgi-1.0.2.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.container:arquillian-container-spi:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.container:arquillian-container-spi:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-spi/1.0.0.Final/arquillian-container-spi-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-spi/1.0.1.Final/arquillian-container-spi-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-spi/1.0.0.Final/arquillian-container-spi-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-spi/1.0.1.Final/arquillian-container-spi-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-spi/1.0.0.Final/arquillian-container-spi-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-spi/1.0.1.Final/arquillian-container-spi-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.container:arquillian-container-test-api:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.container:arquillian-container-test-api:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-api/1.0.0.Final/arquillian-container-test-api-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-api/1.0.1.Final/arquillian-container-test-api-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-api/1.0.0.Final/arquillian-container-test-api-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-api/1.0.1.Final/arquillian-container-test-api-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-api/1.0.0.Final/arquillian-container-test-api-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-api/1.0.1.Final/arquillian-container-test-api-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.container:arquillian-container-test-impl-base:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.container:arquillian-container-test-impl-base:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.0.0.Final/arquillian-container-test-impl-base-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.0.1.Final/arquillian-container-test-impl-base-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.0.0.Final/arquillian-container-test-impl-base-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.0.1.Final/arquillian-container-test-impl-base-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.0.0.Final/arquillian-container-test-impl-base-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.0.1.Final/arquillian-container-test-impl-base-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.container:arquillian-container-test-spi:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.container:arquillian-container-test-spi:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-spi/1.0.0.Final/arquillian-container-test-spi-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-spi/1.0.1.Final/arquillian-container-test-spi-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-spi/1.0.0.Final/arquillian-container-test-spi-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-spi/1.0.1.Final/arquillian-container-test-spi-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-spi/1.0.0.Final/arquillian-container-test-spi-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-spi/1.0.1.Final/arquillian-container-test-spi-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.container:arquillian-glassfish-embedded-3.1:1.0.0.CR3">
+    <library name="Maven: org.jboss.arquillian.core:arquillian-core-api:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-glassfish-embedded-3.1/1.0.0.CR3/arquillian-glassfish-embedded-3.1-1.0.0.CR3.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-api/1.0.1.Final/arquillian-core-api-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-glassfish-embedded-3.1/1.0.0.CR3/arquillian-glassfish-embedded-3.1-1.0.0.CR3-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-api/1.0.1.Final/arquillian-core-api-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-glassfish-embedded-3.1/1.0.0.CR3/arquillian-glassfish-embedded-3.1-1.0.0.CR3-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-api/1.0.1.Final/arquillian-core-api-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.core:arquillian-core-api:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.core:arquillian-core-impl-base:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-api/1.0.0.Final/arquillian-core-api-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.1.Final/arquillian-core-impl-base-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-api/1.0.0.Final/arquillian-core-api-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.1.Final/arquillian-core-impl-base-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-api/1.0.0.Final/arquillian-core-api-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.1.Final/arquillian-core-impl-base-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.core:arquillian-core-impl-base:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.core:arquillian-core-spi:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.0.Final/arquillian-core-impl-base-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-spi/1.0.1.Final/arquillian-core-spi-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.0.Final/arquillian-core-impl-base-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-spi/1.0.1.Final/arquillian-core-spi-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.0.Final/arquillian-core-impl-base-1.0.0.Final-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.jboss.arquillian.core:arquillian-core-spi:1.0.0.Final">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-spi/1.0.0.Final/arquillian-core-spi-1.0.0.Final.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-spi/1.0.0.Final/arquillian-core-spi-1.0.0.Final-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-spi/1.0.0.Final/arquillian-core-spi-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-spi/1.0.1.Final/arquillian-core-spi-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.jboss.arquillian.extension:arquillian-persistence-api:1.0.0.Alpha4">
@@ -890,114 +884,114 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/extension/arquillian-persistence-impl/1.0.0.Alpha4/arquillian-persistence-impl-1.0.0.Alpha4-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.junit:arquillian-junit-container:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.junit:arquillian-junit-container:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-container/1.0.0.Final/arquillian-junit-container-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-container/1.0.1.Final/arquillian-junit-container-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-container/1.0.0.Final/arquillian-junit-container-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-container/1.0.1.Final/arquillian-junit-container-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-container/1.0.0.Final/arquillian-junit-container-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-container/1.0.1.Final/arquillian-junit-container-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.junit:arquillian-junit-core:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.junit:arquillian-junit-core:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.0.0.Final/arquillian-junit-core-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.0.1.Final/arquillian-junit-core-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.0.0.Final/arquillian-junit-core-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.0.1.Final/arquillian-junit-core-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.0.0.Final/arquillian-junit-core-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.0.1.Final/arquillian-junit-core-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.protocol:arquillian-protocol-jmx:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.protocol:arquillian-protocol-jmx:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.0.0.Final/arquillian-protocol-jmx-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.0.1.Final/arquillian-protocol-jmx-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.0.0.Final/arquillian-protocol-jmx-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.0.1.Final/arquillian-protocol-jmx-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.0.0.Final/arquillian-protocol-jmx-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.0.1.Final/arquillian-protocol-jmx-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.0.Final/arquillian-protocol-servlet-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.1.Final/arquillian-protocol-servlet-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.0.Final/arquillian-protocol-servlet-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.1.Final/arquillian-protocol-servlet-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.0.Final/arquillian-protocol-servlet-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.0.1.Final/arquillian-protocol-servlet-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.test:arquillian-test-api:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.test:arquillian-test-api:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-api/1.0.0.Final/arquillian-test-api-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-api/1.0.1.Final/arquillian-test-api-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-api/1.0.0.Final/arquillian-test-api-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-api/1.0.1.Final/arquillian-test-api-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-api/1.0.0.Final/arquillian-test-api-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-api/1.0.1.Final/arquillian-test-api-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.test:arquillian-test-impl-base:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.test:arquillian-test-impl-base:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.0.Final/arquillian-test-impl-base-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.1.Final/arquillian-test-impl-base-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.0.Final/arquillian-test-impl-base-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.1.Final/arquillian-test-impl-base-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.0.Final/arquillian-test-impl-base-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.1.Final/arquillian-test-impl-base-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.test:arquillian-test-spi:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.test:arquillian-test-spi:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.0.0.Final/arquillian-test-spi-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.0.1.Final/arquillian-test-spi-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.0.0.Final/arquillian-test-spi-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.0.1.Final/arquillian-test-spi-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.0.0.Final/arquillian-test-spi-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.0.1.Final/arquillian-test-spi-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-cdi:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-cdi:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.0.Final/arquillian-testenricher-cdi-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.1.Final/arquillian-testenricher-cdi-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.0.Final/arquillian-testenricher-cdi-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.1.Final/arquillian-testenricher-cdi-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.0.Final/arquillian-testenricher-cdi-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.0.1.Final/arquillian-testenricher-cdi-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-ejb:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-ejb:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.0.Final/arquillian-testenricher-ejb-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.1.Final/arquillian-testenricher-ejb-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.0.Final/arquillian-testenricher-ejb-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.1.Final/arquillian-testenricher-ejb-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.0.Final/arquillian-testenricher-ejb-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.0.1.Final/arquillian-testenricher-ejb-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-initialcontext:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-initialcontext:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.0.Final/arquillian-testenricher-initialcontext-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.1.Final/arquillian-testenricher-initialcontext-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.0.Final/arquillian-testenricher-initialcontext-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.1.Final/arquillian-testenricher-initialcontext-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.0.Final/arquillian-testenricher-initialcontext-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.0.1.Final/arquillian-testenricher-initialcontext-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-osgi:1.0.2.Final">
@@ -1011,15 +1005,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/1.0.2.Final/arquillian-testenricher-osgi-1.0.2.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-resource:1.0.0.Final">
+    <library name="Maven: org.jboss.arquillian.testenricher:arquillian-testenricher-resource:1.0.1.Final">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.0.Final/arquillian-testenricher-resource-1.0.0.Final.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.1.Final/arquillian-testenricher-resource-1.0.1.Final.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.0.Final/arquillian-testenricher-resource-1.0.0.Final-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.1.Final/arquillian-testenricher-resource-1.0.1.Final-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.0.Final/arquillian-testenricher-resource-1.0.0.Final-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.0.1.Final/arquillian-testenricher-resource-1.0.1.Final-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.jboss.as:jboss-as-arquillian-common:7.1.1.Final">
@@ -1572,92 +1566,92 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/jboss/sasl/jboss-sasl/1.0.0.Final/jboss-sasl-1.0.0.Final-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:2.0.0-alpha-2">
+    <library name="Maven: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:2.0.0-alpha-3">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-2/shrinkwrap-descriptors-api-base-2.0.0-alpha-2.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-2/shrinkwrap-descriptors-api-base-2.0.0-alpha-2-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-2/shrinkwrap-descriptors-api-base-2.0.0-alpha-2-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:2.0.0-alpha-2">
+    <library name="Maven: org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:2.0.0-alpha-3">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-2/shrinkwrap-descriptors-spi-2.0.0-alpha-2.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-2/shrinkwrap-descriptors-spi-2.0.0-alpha-2-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-2/shrinkwrap-descriptors-spi-2.0.0-alpha-2-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:1.0.0-beta-6">
+    <library name="Maven: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:1.0.0-beta-7">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/1.0.0-beta-6/shrinkwrap-resolver-api-maven-1.0.0-beta-6.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/1.0.0-beta-7/shrinkwrap-resolver-api-maven-1.0.0-beta-7.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/1.0.0-beta-6/shrinkwrap-resolver-api-maven-1.0.0-beta-6-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/1.0.0-beta-7/shrinkwrap-resolver-api-maven-1.0.0-beta-7-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/1.0.0-beta-6/shrinkwrap-resolver-api-maven-1.0.0-beta-6-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/1.0.0-beta-7/shrinkwrap-resolver-api-maven-1.0.0-beta-7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:1.0.0-beta-6">
+    <library name="Maven: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:1.0.0-beta-7">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/1.0.0-beta-6/shrinkwrap-resolver-api-1.0.0-beta-6.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/1.0.0-beta-7/shrinkwrap-resolver-api-1.0.0-beta-7.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/1.0.0-beta-6/shrinkwrap-resolver-api-1.0.0-beta-6-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/1.0.0-beta-7/shrinkwrap-resolver-api-1.0.0-beta-7-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/1.0.0-beta-6/shrinkwrap-resolver-api-1.0.0-beta-6-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/1.0.0-beta-7/shrinkwrap-resolver-api-1.0.0-beta-7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:1.0.0-beta-6">
+    <library name="Maven: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:1.0.0-beta-7">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/1.0.0-beta-6/shrinkwrap-resolver-impl-maven-1.0.0-beta-6.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/1.0.0-beta-7/shrinkwrap-resolver-impl-maven-1.0.0-beta-7.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/1.0.0-beta-6/shrinkwrap-resolver-impl-maven-1.0.0-beta-6-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/1.0.0-beta-7/shrinkwrap-resolver-impl-maven-1.0.0-beta-7-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/1.0.0-beta-6/shrinkwrap-resolver-impl-maven-1.0.0-beta-6-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/1.0.0-beta-7/shrinkwrap-resolver-impl-maven-1.0.0-beta-7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.0.0">
+    <library name="Maven: org.jboss.shrinkwrap:shrinkwrap-api:1.0.1">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0/shrinkwrap-api-1.0.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-api/1.0.1/shrinkwrap-api-1.0.1.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0/shrinkwrap-api-1.0.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-api/1.0.1/shrinkwrap-api-1.0.1-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0/shrinkwrap-api-1.0.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-api/1.0.1/shrinkwrap-api-1.0.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap:shrinkwrap-impl-base:1.0.0">
+    <library name="Maven: org.jboss.shrinkwrap:shrinkwrap-impl-base:1.0.1">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.0/shrinkwrap-impl-base-1.0.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.1/shrinkwrap-impl-base-1.0.1.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.0/shrinkwrap-impl-base-1.0.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.1/shrinkwrap-impl-base-1.0.1-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.0/shrinkwrap-impl-base-1.0.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.1/shrinkwrap-impl-base-1.0.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jboss.shrinkwrap:shrinkwrap-spi:1.0.0">
+    <library name="Maven: org.jboss.shrinkwrap:shrinkwrap-spi:1.0.1">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.0/shrinkwrap-spi-1.0.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.1/shrinkwrap-spi-1.0.1.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.0/shrinkwrap-spi-1.0.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.1/shrinkwrap-spi-1.0.1-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.0/shrinkwrap-spi-1.0.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.1/shrinkwrap-spi-1.0.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:1.0.0.Final">

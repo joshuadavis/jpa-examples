@@ -5,7 +5,7 @@
         http://jboss.org/schema/arquillian
         http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
 
-    <container qualifier="glassfish-embedded">
+    <container qualifier="glassfish-embedded" default="true">
         <configuration>
             <property name="resourcesXml">
                 src/test/resources-glassfish-embedded/glassfish-resources.xml
@@ -14,6 +14,7 @@
     </container>
 
 
+    <!-- Make sure you add the system property arquillian.launch=[qualifier-name] to the surefire configuration -->
     <container qualifier="jbossas-managed">
         <configuration>
             <!-- If you want to use an existing JBoss AS installation, change the value of this property to that path -->
