@@ -4,25 +4,25 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <setting name="provider-name" value="" />
         <datasource-mapping>
           <factory-entry name="jpa-examples-db" />
           <factory-entry name="test" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/test/resources-jbossas-managed/test-persistence-hib.xml" />
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../jboss-jpa-examples/arq-persistence/src/test/resources-jbossas-managed/test-persistence-hib.xml" />
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <content url="file://$MODULE_DIR$">
+    <content url="file://$MODULE_DIR$/../jboss-jpa-examples/arq-persistence">
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources-jbossas-managed" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources-glassfish-embedded" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/arq-persistence/src/test/resources-jbossas-managed" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/arq-persistence/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/arq-persistence/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/arq-persistence/src/test/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/arq-persistence/src/test/resources-glassfish-embedded" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/test-annotations" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" />
     </content>
@@ -79,4 +79,3 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.main.extras:glassfish-embedded-all:3.1.2" level="project" />
   </component>
 </module>
-

@@ -4,27 +4,27 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <setting name="provider-name" value="" />
         <datasource-mapping>
           <factory-entry name="jpa-examples-db" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/test-annotations" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/target/surefire" />
-      <excludeFolder url="file://$MODULE_DIR$/target/surefire-reports" />
-      <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child">
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/target/generated-sources/test-annotations" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/target/generated-sources/annotations" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/target/surefire" />
+      <excludeFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/target/surefire-reports" />
+      <excludeFolder url="file://$MODULE_DIR$/../jboss-jpa-examples/parent-child/target/test-classes" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -45,4 +45,3 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.6" level="project" />
   </component>
 </module>
-
