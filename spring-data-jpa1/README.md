@@ -31,3 +31,4 @@ Testcontainers requires docker, so keep that in mind.
 More information on TestContainers Postgres support:
 * https://www.baeldung.com/spring-boot-testcontainers-integration-test
 * https://www.testcontainers.org/modules/databases/postgres/
+
