@@ -13,13 +13,6 @@
       <entry name="?*.tld" />
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
-    <bytecodeTargetLevel>
-      <module name="jpa-examples.main" target="11" />
-      <module name="jpa-examples.spring-data-jpa1.main" target="11" />
-      <module name="jpa-examples.spring-data-jpa1.test" target="11" />
-      <module name="jpa-examples.test" target="11" />
-      <module name="spring-data-jpa-exmples.main" target="11" />
-      <module name="spring-data-jpa-exmples.test" target="11" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>

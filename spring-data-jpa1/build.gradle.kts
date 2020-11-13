@@ -7,5 +7,5 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
-    testImplementation("org.testcontainers:postgresql")
+    runtimeOnly("com.h2database:h2")
 }
